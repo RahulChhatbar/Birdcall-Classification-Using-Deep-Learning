@@ -1,7 +1,7 @@
 # README
 
 ## Website
-[Birdcall Classification Using Deep Learning](https://rahulchhatbar.github.io/Birdcall-Classification-Using-Deep-Learning/)
+[Birdcall Classification Using Deep Learning](https://rahulchhatbar.github.io/Birdcall-Classification-Using-Deep-Learning/){:target="_blank"}
 
 ## Dataset
 [Cornell Birdcall Identification](https://www.kaggle.com/competitions/birdsong-recognition/data)
