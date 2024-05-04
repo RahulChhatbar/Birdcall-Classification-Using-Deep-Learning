@@ -1,6 +1,6 @@
 body {
   overflow: hidden;
-  animation: showOverflow 1.5s forwards;
+  animation: showOverflow 2s forwards;
 }
 
 .team-title {
@@ -36,16 +36,10 @@ body {
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   padding: 24px;
   animation: slidein 0.75s;
-}
-
-@media (max-width: 1230px) {
-  .team-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media (max-width: 767px) {
@@ -56,12 +50,12 @@ body {
 
 .team-member {
   position: relative;
-  width: 250px;
-  height: 320px;
+  width: 350px;
+  height: 420px;
   background-color: rgb(25, 25, 25);
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   padding: 12px;
   gap: 12px;
   border-radius: 25px;
@@ -100,7 +94,7 @@ body {
 
 .team-member-name {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .profile_image {
@@ -117,6 +111,8 @@ body {
 
 .team-member p {
   color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .team-member button {
@@ -133,4 +129,5 @@ body {
   width: 30px;
   height: 30px;
   cursor: pointer;
+  padding-top: 10px;
 }
